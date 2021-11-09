@@ -10,3 +10,7 @@ Simulations using LBM are implemented on a discretized domain accompanied by a d
 Since the dynamical rules in the method is local (each cell is only updated in relation to neighboring cells) it can be made highly efficient on parallel computers.
 
 This repository contains a parallel implementation of the multiphase multiphase Shan-Chen Lattice-Boltzmann method suitable for massively parallel computing, using the MPI standard.
+
+![animated example](https://github.com/Haspaker/parallel-lattice-boltzmann-simulation/blob/main/example.gif?raw=true)
+
+The above example shows multiphase vapor-liquid coexistence, with droplets coalescing from small initial fluctuations around a mean value.
